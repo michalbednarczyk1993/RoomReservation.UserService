@@ -1,5 +1,6 @@
 package com.roomreservation.usersservice.rest;
 
+import com.roomreservation.usersservice.exceptions.UserAlreadyExistException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.HttpStatus;
